@@ -216,16 +216,16 @@ if BF then
 			ColorIIIIIII = getgenv().Theme.Slider.LeftColor
 			ColorIIIIIIII = getgenv().Theme.Slider.RightColor
 		else
-			ColorII = Color3.fromRGB(128,0,128)
+			ColorII = Color3.fromRGB(200,60,185)
 	
-			ColorIII = Color3.fromRGB(128,0,128)
-			ColorIIII = Color3.fromRGB(0, 0, 255)
+			ColorIII = Color3.fromRGB(200,60,185)
+			ColorIIII = Color3.fromRGB(128,0,128)
 	
-			ColorIIIII = Color3.fromRGB(128,0,128)
-			ColorIIIIII = Color3.fromRGB(0, 0, 255)
+			ColorIIIII = Color3.fromRGB(200,60,185)
+			ColorIIIIII = Color3.fromRGB(128,0,128)
 	
-			ColorIIIIIII = Color3.fromRGB(128,0,128)
-			ColorIIIIIIII = Color3.fromRGB(0, 0, 255)
+			ColorIIIIIII = Color3.fromRGB(200,60,185)
+			ColorIIIIIIII = Color3.fromRGB(128,0,128)
 		end
 	
 		local Main = Instance.new("Frame")
@@ -365,7 +365,7 @@ if BF then
 		TabSet.PlaceholderText = "Search : ..."
 		TabSet.Text = ""
 		TabSet.TextColor3 = Color3.fromRGB(255, 0, 0)
-		TabSet.PlaceholderColor3 = Color3.fromRGB(255, 0, 0)
+		TabSet.PlaceholderColor3 = Color3.fromRGB(200,60,185)
 		TabSet.TextSize = 18.000
 		TabSet.ClipsDescendants = true
 	
@@ -802,7 +802,7 @@ if BF then
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad),
-						{TextColor3 = Color3.fromRGB(255, 0, 0)}
+						{TextColor3 = Color3.fromRGB(200,60,185)}
 					):Play()
 				end)
 	

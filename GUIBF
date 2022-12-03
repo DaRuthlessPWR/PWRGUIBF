@@ -83,7 +83,7 @@ if BF then
 	
 	if game.CoreGui.RobloxGui:FindFirstChild("Voice Chat Ui") then game.CoreGui.RobloxGui:FindFirstChild("Voice Chat Ui"):Destroy() end
 	local library = {RainbowColorValue = 0, HueSelectionPosition = 0}
-	local PresetColor = Color3.fromRGB(255, 0, 0)
+	local PresetColor = Color3.fromRGB(128,0,128)
 	local UserInputService = game:GetService("UserInputService")
 	local TweenService = game:GetService("TweenService")
 	local RunService = game:GetService("RunService")
@@ -216,15 +216,15 @@ if BF then
 			ColorIIIIIII = getgenv().Theme.Slider.LeftColor
 			ColorIIIIIIII = getgenv().Theme.Slider.RightColor
 		else
-			ColorII = Color3.fromRGB(255, 0, 0)
+			ColorII = Color3.fromRGB(128,0,128)
 	
-			ColorIII = Color3.fromRGB(255, 0, 0)
+			ColorIII = Color3.fromRGB(128,0,128)
 			ColorIIII = Color3.fromRGB(0, 0, 255)
 	
-			ColorIIIII = Color3.fromRGB(255, 0, 0)
+			ColorIIIII = Color3.fromRGB(128,0,128)
 			ColorIIIIII = Color3.fromRGB(0, 0, 255)
 	
-			ColorIIIIIII = Color3.fromRGB(255, 0, 0)
+			ColorIIIIIII = Color3.fromRGB(128,0,128)
 			ColorIIIIIIII = Color3.fromRGB(0, 0, 255)
 		end
 	
@@ -314,7 +314,7 @@ if BF then
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
 		Toggleui.Font = Enum.Font.SourceSansSemibold
 		Toggleui.Text = "[ Right Control ]"
-		Toggleui.TextColor3 = Color3.fromRGB(255, 0, 0)
+		Toggleui.TextColor3 = Color3.fromRGB(128,0,128)
 		Toggleui.TextSize = 20.000
 	
 		HideTab.Name = "HideTab"
